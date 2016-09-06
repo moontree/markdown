@@ -1,0 +1,95 @@
+# Markdown 语法介绍
+----------
+## 标题
+标题使用#表示，以不同的个数代表不同的标题字号。  
+比如`### 列表`
+___
+## 无序列表
+使用`*,+,-`中的任何一个表示无序列表，比如  
+
+	* 无序列表
+	+ 无序列表
+	- 无序列表
+效果如下所示：  
+
++ 无序列表
+- 无序列表
+* 无序列表
+
+___
+##有序列表
+使用数字加上‘.’表示有序列表，中间要有空格，比如
+
+	1. 有序列表
+	2. 有序列表
+	3. 有序列表
+效果如下所示：
+
+1. 有序列表
+2. 有序列表
+3. 有序列表
+___
+## 代码
+大片文字：使用TAB或者4个空格,比如
+
+	#include<iostream>
+	using namespace std
+	int main(){
+		cout<<"hello world"<<endl;
+		return 0;
+	}
+	
+
+简单文字：使用'\`'(ESC下面的那个键）包围起来，比如`test`
+___
+##斜体和粗体
+使用一个`*`或者`_`包围要标为斜体的文字，比如
+
+`*斜体*`：*斜体*
+
+`_斜体_`： _斜体_
+
+
+使用两个个`*`或者`_`包围要标为斜体的文字，比如
+
+`**斜体**`：**斜体**
+
+`__斜体__`： __斜体__
+___
+## 链接
+内联方式：
+`[百度](http://www.baidu.com)`[百度](http://www.baidu.com)
+
+引用方式：
+	
+	[百度][1]
+	[1] : http://www.baidu.com
+
+[百度][1]
+
+[1]: http://www.baidu.com 
+___
+##引用
+使用`>`开头  
+例如： 
+
+  >朝辞白帝彩云间  
+	>千里江陵一日还  
+	>两岸猿声啼不住  
+	>轻舟已过万重山
+
+>朝辞白帝彩云间  
+>千里江陵一日还  
+>两岸猿声啼不住  
+>轻舟已过万重山
+___
+##图片
+和链接非常相似。  
+内链方式：`![text](path "Title")`  
+引用方式:  
+	
+	![text][id]
+	[id]: path "Title"
+
+
+![测试](http://image.baidu.com/search/detail?ct=503316480&z=0&ipn=d&word=%E5%9B%BE%E7%89%87&hs=0&pn=0&spn=0&di=80916269200&pi=&rn=1&tn=baiduimagedetail&ie=utf-8&oe=utf-8&cl=2&lm=-1&cs=3586233367%2C3171193232&os=3491461712%2C2975091138&simid=0%2C0&adpicid=0&ln=30&fr=ala&fm=&sme=&cg=&bdtype=11&oriquery=&objurl=http%3A%2F%2Fscimg.jb51.net%2Fallimg%2F160815%2F103-160Q509544OC.jpg&fromurl=ippr_z2C%24qAzdH3FAzdH3Ffv_z%26e3B3kc8_z%26e3BgjpAzdH3FPtvp76jAzdH3FOpij6AzdH3F8nldbc_z%26e3Bip4&gsm=0)
